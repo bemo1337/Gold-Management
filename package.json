@@ -1,0 +1,20 @@
+{
+  "name": "nizar-jewellery-owner-manager",
+  "version": "1.0.0",
+  "description": "Owner/Manager module for Nizar Jewellery application",
+  "private": true,
+  "scripts": {
+    "test:server": "cd server && npm test",
+    "test:integration": "cd tests/integration/owner && npm test",
+    "test:e2e": "cd tests/e2e/owner && npm test"
+  },
+  "keywords": [
+    "jewellery",
+    "owner",
+    "manager",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+

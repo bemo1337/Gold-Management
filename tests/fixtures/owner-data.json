@@ -1,0 +1,86 @@
+{
+  "productTypes": [
+    "خاتم",
+    "محبس",
+    "اسم",
+    "حلق",
+    "اسوارة",
+    "طوق",
+    "طقم",
+    "خلخال",
+    "ليرة",
+    "نصف ليرة",
+    "ربع ليرة",
+    "أونصة"
+  ],
+  "materials": [
+    "ذهب",
+    "فضة",
+    "ألماس"
+  ],
+  "karats": [
+    "18",
+    "21",
+    "24",
+    "925"
+  ],
+  "reservationStatuses": [
+    "pending",
+    "approved",
+    "rejected",
+    "completed",
+    "cancelled",
+    "expired"
+  ],
+  "certificateStatuses": [
+    "active",
+    "revoked",
+    "expired"
+  ],
+  "wishlistStatuses": [
+    "pending",
+    "in_progress",
+    "responded",
+    "completed",
+    "cancelled",
+    "archived"
+  ],
+  "testProducts": {
+    "ring": {
+      "name": "خاتم ذهبي",
+      "productType": "خاتم",
+      "material": "ذهب",
+      "karat": "18",
+      "weight": 5,
+      "ringSizes": [12, 13, 14],
+      "gramPrice": { "usd": 50, "syp": 100000 },
+      "totalPrice": { "usd": 250, "syp": 500000 }
+    },
+    "necklace": {
+      "name": "قلادة فضية",
+      "productType": "طوق",
+      "material": "فضة",
+      "karat": "925",
+      "weight": 20,
+      "gramPrice": { "usd": 10, "syp": 20000 },
+      "totalPrice": { "usd": 200, "syp": 400000 }
+    },
+    "diamond": {
+      "name": "خاتم ألماس",
+      "productType": "خاتم",
+      "material": "ألماس",
+      "weight": 3,
+      "stones": [
+        {
+          "type": "diamond",
+          "carat": 1.5,
+          "clarity": "VS1",
+          "color": "D"
+        }
+      ],
+      "gramPrice": { "usd": 1000, "syp": 2000000 },
+      "totalPrice": { "usd": 3000, "syp": 6000000 }
+    }
+  }
+}
+
